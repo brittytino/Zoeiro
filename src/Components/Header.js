@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './Images/jdlogosvg.svg';
-import logo1 from './Zoeiro.png';
+import logo1 from './Components/Zoeiro.png';
 
 
 function Header() {
