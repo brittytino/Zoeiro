@@ -1,5 +1,5 @@
 import React from 'react';
-import bus from './Images/si_bus.svg';
+import bus from './Images/martial-arts-svgrepo-com.svg';
 import car from './Images/si_car.svg';
 import dth from './Images/si_dth.svg';
 import flight from './Images/si_flight.svg';

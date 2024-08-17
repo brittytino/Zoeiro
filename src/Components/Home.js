@@ -23,7 +23,6 @@ function Home() {
       <Serv_Icons />
       <GallerySection />
       <ServicesIcon />
-      <Recent_activity />
       <BrandSlide />
       <hr />
       <Sharing_Links />
