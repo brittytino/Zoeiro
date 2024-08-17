@@ -1,16 +1,16 @@
 import React from 'react';
-import gb_img1 from './Images/GB_img1.webp';
-import gb_img2 from './Images/GB_img2.webp';
-import gb_img3 from './Images/GB_img3.webp';
-import gb_img4 from './Images/BG_img4.webp';
-import gb_img5 from './Images/BG_img5.webp';
-import gb_img6 from './Images/BG_img6.webp';
-import gb_img7 from './Images/BG_img7.webp';
-import gb_img8 from './Images/BG_img8.webp';
-import gb_img9 from './Images/BG_img9.webp';
-import gb_img10 from './Images/BG_img10.webp';
-import gb_img11 from './Images/BG_img11.webp';
-import gb_img12 from './Images/BG_img12.webp';
+import gb_img1 from './Images/music.jpg';
+import gb_img2 from './Images/dancewo.jpg';
+import gb_img3 from './Images/drama.webp';
+import gb_img4 from './Images/codi.jpeg';
+import gb_img5 from './Images/art1.webp';
+import gb_img6 from './Images/scien.jpg';
+import gb_img7 from './Images/sports1.jpg';
+import gb_img8 from './Images/yoga.jpeg';
+import gb_img9 from './Images/cooking.jpg';
+import gb_img10 from './Images/math.jpeg';
+import gb_img11 from './Images/pubs.jpeg';
+import gb_img12 from './Images/rob.jpeg';
 
 function GallerySection() {
     return (
@@ -18,82 +18,81 @@ function GallerySection() {
             <section className='pad my-5'>
                 <div className='container-fluid'>
                     <div className='row justify-content-between px-4 my-5'>
-                        <div className='col galleryBox  '>
-                            <h5 className='px-4'>Wedding Requisite</h5>
+                        <div className='col galleryBox'>
+                            <h5 className='px-4'>Music & Dance</h5>
                             <div className='row text-center px-4 mb-3'>
-                                <div className='col-4 '>
-                                    <img src={gb_img1} alt='' className='img-fluid mb-3' ></img>
-                                    <span>Banquet Halls</span>
+                                <div className='col-4'>
+                                    <img src={gb_img1} alt='Music Classes' className='img-fluid mb-3'></img>
+                                    <span>Music Classes</span>
                                 </div>
-                                <div className='col-4 '>
-                                    <img src={gb_img2} alt='' className='img-fluid mb-3' ></img>
-                                    <span>Bridal Requisite</span>
+                                <div className='col-4'>
+                                    <img src={gb_img2} alt='Dance Workshops' className='img-fluid mb-3'></img>
+                                    <span>Dance Workshops</span>
                                 </div>
-                                <div className='col-4 '>
-                                    <img src={gb_img3} alt='' className='img-fluid mb-3' ></img>
-                                    <span className=''>Caterers</span>
+                                <div className='col-4'>
+                                    <img src={gb_img3} alt='Drama Classes' className='img-fluid mb-3'></img>
+                                    <span>Drama Classes</span>
                                 </div>
                             </div>
                         </div>
                         <div className='col galleryBox ms-5'>
-                        <h5 className='px-4'>Beauty & Spa</h5>
+                            <h5 className='px-4'>Skill Development</h5>
                             <div className='row text-center px-4 mb-3'>
-                                <div className='col-4 '>
-                                    <img src={gb_img4} alt='' className='img-fluid mb-3' ></img>
-                                    <span>Banquet Halls</span>
+                                <div className='col-4'>
+                                    <img src={gb_img4} alt='Coding Camps' className='img-fluid mb-3'></img>
+                                    <span>Coding Camps</span>
                                 </div>
-                                <div className='col-4 '>
-                                    <img src={gb_img5} alt='' className='img-fluid mb-3' ></img>
-                                    <span>Bridal Requisite</span>
+                                <div className='col-4'>
+                                    <img src={gb_img5} alt='Art & Crafts' className='img-fluid mb-3'></img>
+                                    <span>Art & Crafts</span>
                                 </div>
-                                <div className='col-4 '>
-                                    <img src={gb_img6} alt='' className='img-fluid mb-3' ></img>
-                                    <span className=''>Caterers</span>
+                                <div className='col-4'>
+                                    <img src={gb_img6} alt='Science Clubs' className='img-fluid mb-3'></img>
+                                    <span>Science Clubs</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className='row justify-content-between px-4 mt-4 '>
-                        <div className='col galleryBox  '>
-                            <h5 className='px-4'>Repairs & Services</h5>
+                    <div className='row justify-content-between px-4 mt-4'>
+                        <div className='col galleryBox'>
+                            <h5 className='px-4'>Sports & Activities</h5>
                             <div className='row text-center px-4 mb-3'>
-                                <div className='col-4 '>
-                                    <img src={gb_img7} alt='' className='img-fluid mb-3' ></img>
-                                    <span>Banquet Halls</span>
+                                <div className='col-4'>
+                                    <img src={gb_img7} alt='Sports Training' className='img-fluid mb-3'></img>
+                                    <span>Sports Training</span>
                                 </div>
-                                <div className='col-4 '>
-                                    <img src={gb_img8} alt='' className='img-fluid mb-3' ></img>
-                                    <span>Bridal Requisite</span>
+                                <div className='col-4'>
+                                    <img src={gb_img8} alt='Yoga for Kids' className='img-fluid mb-3'></img>
+                                    <span>Yoga for Kids</span>
                                 </div>
-                                <div className='col-4 '>
-                                    <img src={gb_img9} alt='' className='img-fluid mb-3' ></img>
-                                    <span className=''>Caterers</span>
+                                <div className='col-4'>
+                                    <img src={gb_img9} alt='Cooking Classes' className='img-fluid mb-3'></img>
+                                    <span>Cooking Classes</span>
                                 </div>
                             </div>
                         </div>
                         <div className='col galleryBox ms-5'>
-                        <h5 className='px-4'>Daily Needs</h5>
+                            <h5 className='px-4'>Educational Workshops</h5>
                             <div className='row text-center px-4 mb-3'>
-                                <div className='col-4 '>
-                                    <img src={gb_img10} alt='' className='img-fluid mb-3' ></img>
-                                    <span>Banquet Halls</span>
+                                <div className='col-4'>
+                                    <img src={gb_img10} alt='Math Clubs' className='img-fluid mb-3'></img>
+                                    <span>Math Clubs</span>
                                 </div>
-                                <div className='col-4 '>
-                                    <img src={gb_img11} alt='' className='img-fluid mb-3' ></img>
-                                    <span>Bridal Requisite</span>
+                                <div className='col-4'>
+                                    <img src={gb_img11} alt='Public Speaking' className='img-fluid mb-3'></img>
+                                    <span>Public Speaking</span>
                                 </div>
-                                <div className='col-4 '>
-                                    <img src={gb_img12} alt='' className='img-fluid mb-3' ></img>
-                                    <span className=''>Caterers</span>
+                                <div className='col-4'>
+                                    <img src={gb_img12} alt='Robotics Workshops' className='img-fluid mb-3'></img>
+                                    <span>Robotics</span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-
         </div>
-    )
+    );
 }
 
-export default GallerySection
+export default GallerySection;

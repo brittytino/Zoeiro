@@ -4,7 +4,8 @@ import img2 from './Images/ra_spa.jpg';
 import img3 from './Images/ra_twitter.jpg';
 import img4 from './Images/ra_user.jpg';
 import img5 from './Images/ra_ytb.jpg';
-import userImg from './Images/user3.jpg'
+import userImg from './Images/user3.jpg';
+
 function Recent_activity() {
     return (
         <div>
@@ -14,130 +15,152 @@ function Recent_activity() {
                         <h3>Recent Activity</h3>
                     </div>
                     <div className='row my-5 justify-content-between' id='RecentActivity'>
-                        <div className='col col-md-4    RecentActivity'>
-                            <h4>PAYTM.COM</h4>
+                        <div className='col col-md-4 RecentActivity'>
+                            <h4>Art & Craft Classes</h4>
                             <div className='imgbox'>
                                 <img src={img1} alt="" className='img-fluid' />
                             </div>
                             <div className='row px-3 my-3'>
                                 <div className='col-6 d-flex'>
-                                    <img src={userImg} alt='user iamge' />
+                                    <img src={userImg} alt='user image' />
                                     <div>
-                                        VIPIN
-                                        <p className='text-muted'>Wrote a review</p>
+                                        JOHN DOE
+                                        <p className='text-muted'>Enrolled in Art & Craft</p>
                                     </div>
                                 </div>
-                                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
                                 <p>
-                                    Hello friends I have been using Paytm for almost 3 years this app is one of the best app which is very easy to use to send and receive money this app gives you many benefits like....
+                                    <i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-regular fa-star"></i>
+                                </p>
+                                <p>
+                                    My child loves the creativity involved in art and craft classes. It's been a great way for them to express themselves while learning new skills.
                                 </p>
                             </div>
                         </div>
-                        <div className='col col-md-4  RecentActivity'>
-                            <h4>SPASALOON.COM</h4>
+                        <div className='col col-md-4 RecentActivity'>
+                            <h4>Music Lessons</h4>
                             <div className='imgbox'>
                                 <img src={img2} alt="" className='img-fluid' />
                             </div>
                             <div className='row px-3 my-3'>
                                 <div className='col-6 d-flex'>
-                                    <img src={userImg} alt='user iamge' />
+                                    <img src={userImg} alt='user image' />
                                     <div>
-                                        VIPIN
-                                        <p className='text-muted'>Wrote a review</p>
+                                        JANE DOE
+                                        <p className='text-muted'>Enrolled in Music Lessons</p>
                                     </div>
                                 </div>
-                                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
                                 <p>
-                                    Facebook.com is a social networking website that was launched in 2004 by Mark Zuckerberg, along with his college roommates and fellow students. Initially designed for college...  </p>
+                                    <i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-regular fa-star"></i>
+                                </p>
+                                <p>
+                                    Learning music has helped my child develop discipline and patience. The lessons are enjoyable and well-structured.
+                                </p>
                             </div>
                         </div>
-                        <div className='col col-md-4 py-0  RecentActivity p-0'>
+                        <div className='col col-md-4 py-0 RecentActivity p-0'>
                             <h5 className='px-3'>How would you rate your experience?</h5>
-                            <div className='startbox '>
-                                <div className='row px-3 my-3 '>
+                            <div className='startbox'>
+                                <div className='row px-3 my-3'>
                                     <div className='col-4'>
                                         <div className='imgbox'>
-                                            <img src={img1} alt='user iamge' />
+                                            <img src={img1} alt='user image' />
                                         </div>
                                     </div>
                                     <div className='col-8'>
-                                        <h5>Paytm.com</h5>
-                                        <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i> <span className='text-muted'>102193 Ratings</span> </p>
-                                        <span className='mb-3'><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
-                                            <br />     <br />   <a href='' className='pt-3'>Tap to rate</a></span>
+                                        <h5>Art & Craft Classes</h5>
+                                        <p>
+                                            <i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-regular fa-star"></i> 
+                                            <span className='text-muted'>102 Ratings</span>
+                                        </p>
+                                        <span className='mb-3'>
+                                            <i className="fa-regular fa-star"></i><i className="fa-regular fa-star"></i><i className="fa-regular fa-star"></i><i className="fa-regular fa-star"></i>
+                                            <br /><br />
+                                            <a href='' className='pt-3'>Tap to rate</a>
+                                        </span>
                                     </div>
                                     <hr />
                                     <div className='col-4'>
                                         <div className='imgbox'>
-                                            <img src={img4} alt='user iamge' />
+                                            <img src={img4} alt='user image' />
                                         </div>
                                     </div>
                                     <div className='col-8'>
-                                        <h5>Paytm.com</h5>
-                                        <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i> <span className='text-muted'>102193 Ratings</span> </p>
-                                        <span className='mb-3'><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i>
-                                            <br />     <br />   <a href='' className='pt-3'>Tap to rate</a></span>
+                                        <h5>Music Lessons</h5>
+                                        <p>
+                                            <i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-regular fa-star"></i> 
+                                            <span className='text-muted'>89 Ratings</span>
+                                        </p>
+                                        <span className='mb-3'>
+                                            <i className="fa-regular fa-star"></i><i className="fa-regular fa-star"></i><i className="fa-regular fa-star"></i><i className="fa-regular fa-star"></i>
+                                            <br /><br />
+                                            <a href='' className='pt-3'>Tap to rate</a>
+                                        </span>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
-                        <div className='col col-md-4  RecentActivity '>
-                            <h4>TWITTER.COM</h4>
+                        <div className='col col-md-4 RecentActivity'>
+                            <h4>Sports Training</h4>
                             <div className='imgbox'>
                                 <img src={img3} alt="" className='img-fluid' />
                             </div>
                             <div className='row px-3 my-3'>
                                 <div className='col-6 d-flex'>
                                     <div className='imgbox'>
-                                        <img src={userImg} alt='user iamge' />
+                                        <img src={userImg} alt='user image' />
                                     </div>
                                     <div>
-                                        VIPIN
-                                        <p className='text-muted'>Wrote a review</p>
+                                        SAM SMITH
+                                        <p className='text-muted'>Enrolled in Sports Training</p>
                                     </div>
                                 </div>
-                                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
                                 <p>
-                                    Hello friends I have been using Paytm for almost 3 years this app is one of the best app which is very easy to use to send and receive money this app gives you many benefits like....
+                                    <i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-regular fa-star"></i>
+                                </p>
+                                <p>
+                                    Sports training has been a great way for my child to stay active and healthy. The coaches are supportive and knowledgeable.
                                 </p>
                             </div>
                         </div>
-                        <div className='col col-md-4  RecentActivity '>
-                            <h4>FACEBOOK.COM</h4>
+                        <div className='col col-md-4 RecentActivity'>
+                            <h4>Dance Classes</h4>
                             <div className='imgbox'>
                                 <img src={img4} alt="" className='img-fluid' />
                             </div>
                             <div className='row px-3 my-3'>
                                 <div className='col-6 d-flex'>
-                                    <img src={userImg} alt='user iamge' />
+                                    <img src={userImg} alt='user image' />
                                     <div>
-                                        VIPIN
-                                        <p className='text-muted'>Wrote a review</p>
+                                        LUCY LIU
+                                        <p className='text-muted'>Enrolled in Dance Classes</p>
                                     </div>
                                 </div>
-                                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
                                 <p>
-                                    Hello friends I have been using Paytm for almost 3 years this app is one of the best app which is very easy to use to send and receive money this app gives you many benefits like....
+                                    <i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-regular fa-star"></i>
+                                </p>
+                                <p>
+                                    Dance classes have improved my child's confidence and coordination. It's a fun and engaging way for them to stay fit.
                                 </p>
                             </div>
                         </div>
-                        <div className='col col-md-4  RecentActivity '>
-                            <h4>YOUTUBE.COM</h4>
+                        <div className='col col-md-4 RecentActivity'>
+                            <h4>Cooking Classes</h4>
                             <div className='imgbox'>
                                 <img src={img5} alt="" className='img-fluid' />
                             </div>
                             <div className='row px-3 my-3'>
                                 <div className='col-6 d-flex'>
-                                    <img src={userImg} alt='user iamge' />
+                                    <img src={userImg} alt='user image' />
                                     <div>
-                                        VIPIN
-                                        <p className='text-muted'>Wrote a review</p>
+                                        MARK LEE
+                                        <p className='text-muted'>Enrolled in Cooking Classes</p>
                                     </div>
                                 </div>
-                                <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
                                 <p>
-                                    Hello friends I have been using Paytm for almost 3 years this app is one of the best app which is very easy to use to send and receive money this app gives you many benefits like....
+                                    <i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-solid fa-star"></i><i className="fa-regular fa-star"></i>
+                                </p>
+                                <p>
+                                    Cooking classes have been a delightful experience for my child. They are learning essential life skills while having fun.
                                 </p>
                             </div>
                         </div>
@@ -145,7 +168,7 @@ function Recent_activity() {
                 </div>
             </section>
         </div>
-    )
+    );
 }
 
-export default Recent_activity
+export default Recent_activity;
